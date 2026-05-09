@@ -1,3 +1,4 @@
 /.vscode
 /.idea
+/docs/.vuepress
 node_modules
