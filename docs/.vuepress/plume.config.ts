@@ -16,7 +16,7 @@ export default defineThemeConfig({
 	createTime: true,
 	footer: {
 		message: "Power by <a target='_blank' href='https://v2.vuepress.vuejs.org/'>VuePress</a> & <a target='_blank' href='https://theme-plume.vuejs.press'>vuepress-theme-plume</a>",
-		// copyright: "Copyright © 2024-present Erhai_lake",
+		copyright: "Copyright © 2026-present Ponder-Tutorials",
 	},
 	profile: {
 		avatar: "/assets/textures/icon.png",
