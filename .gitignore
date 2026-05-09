@@ -1,4 +1,5 @@
 /.vscode
 /.idea
 /docs/.vuepress/.temp
+/docs/.vuepress/.cache
 node_modules

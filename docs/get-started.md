@@ -16,7 +16,7 @@ VuePress support basic markdown syntax and [some extensions][synatex-extensions]
 
 ## Configuration
 
-VuePress use a `.vuepress/config.js`(or .ts) file as [site configuration][config], you can use it to config your site.
+VuePress use a `.vuepress/config.ts`(or .ts) file as [site configuration][config], you can use it to config your site.
 
 For [client side configuration][client-config], you can create `.vuepress/client.js`(or .ts).
 
