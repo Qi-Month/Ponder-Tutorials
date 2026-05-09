@@ -30,9 +30,6 @@ jobs:
             -   name: 安装 依赖❄
                 run: pnpm install
 
-            -   name: 图片 转换🚽
-                run: pnpm run PictureSHA1
-
             -   name: 构建 项目🚽
                 run: pnpm run docs:build
 
