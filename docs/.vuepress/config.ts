@@ -7,8 +7,17 @@ export default defineUserConfig({
 	lang: "zh-CN",
 	title: "Ponder-Tutorials",
 	description: "Ponder-Tutorials",
+	head: [
+		[
+			"link",
+			{
+				rel: "icon",
+				type: "image/png",
+				href: "./assets/textures/icon.png"
+			}
+		]
+	],
 
 	bundler: viteBundler(),
-	theme: plumeTheme({
-	}),
+	theme: plumeTheme({}),
 })
