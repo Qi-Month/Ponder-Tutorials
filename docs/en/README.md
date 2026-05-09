@@ -1,31 +1,46 @@
 ---
 home: true
+pageLayout: home
 config:
-  - type: hero
-    hero:
-      name: Ponder-Tutorials
-      tagline: A simple tutorial site
-      text: Help you quickly get started and master related skills
-      actions:
-        - theme: brand
-          text: Get Started
-          link: /en/get-started.html
-        - theme: alt
-          text: View on GitHub
-          link: https://github.com/
+    -   type: doc-hero
+        forceDark: true
+        hero:
+            name: Welcome to Ponder-Tutorials!
+            text: Ponder is the way
+            tagline: I said ponder is the way, are you questioning me? 😡
+            image: /assets/textures/favicon.svg
+            actions:
+                -   theme: brand
+                    text: Introduction
+                    link: /introduction.html
+                -   theme: alt
+                    text: View on GitHub
+                    link: https://github.com/Qi-Month/Ponder-Tutorials
 
-  - type: features
-    features:
-      - title: Simplicity First
-        icon: 📝
-        details: Minimal setup with markdown-centered project structure helps you focus on writing.
-        link: /en/get-started.html
-      - title: Feature Rich
-        icon: 🚀
-        details: Provides rich theme features to meet your various needs.
-      - title: High Performance
-        icon: ⚡
-        details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+    -   type: features
+        forceDark: true
+        features:
+            -   title: Quick Start
+                icon: 📘
+                details: From setting up the environment to your first Ponder scene, step by step through the basic usage of Ponder.
 
-footer: AGPLv3 Licensed | Copyright © 2026-present Ponder-Tutorials
+            -   title: Practical Focus
+                icon: ⚙️
+                details: Not only explains API usage, but also demonstrates and practices with real mod development scenarios.
+
+            -   title: Ponder is Super Easy
+                icon: ✍️
+                details: Have you ever heard of coding while daydreaming?
+
+            -   title: Animation & Interaction
+                icon: 🎬
+                details: Learn how to control scene animations, text prompts, block operations and interactive demonstrations.
+
+            -   title: Easy to Extend
+                icon: 🚀
+                details: Help you build a complete and maintainable Ponder tutorial system for your mod.
+
+            -   title: Write and Improve
+                icon: 🔄
+                details: When encountering new problems, tips or pitfalls, they will be continuously updated in the documentation.
 ---

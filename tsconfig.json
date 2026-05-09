@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"target": "ES2020",
+		"module": "ESNext",
+		"moduleResolution": "bundler",
+		"strict": true,
+		"jsx": "preserve",
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"baseUrl": ".",
+		"types": ["vuepress/client"],
+		"paths": {
+			"@/*": ["docs/.vuepress/*"]
+		}
+	},
+	"include": [
+		"docs/.vuepress/**/*.ts",
+		"docs/.vuepress/**/*.d.ts",
+		"docs/.vuepress/**/*.vue"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
