@@ -13,11 +13,15 @@ export default defineUserConfig({
 			{
 				rel: "icon",
 				type: "image/png",
-				href: "./assets/textures/icon.png"
+				href: "/assets/textures/icon.png"
 			}
 		]
 	],
 
 	bundler: viteBundler(),
-	theme: plumeTheme({}),
+	theme: plumeTheme({
+		search: {
+			provider: "local",
+		},
+	}),
 })

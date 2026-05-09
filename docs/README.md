@@ -1,33 +1,31 @@
 ---
 home: true
-title: Home
-heroImage: https://vuejs.press/images/hero.png
-actions:
-  - text: Get Started
-    link: /get-started.html
-    type: primary
+config:
+  - type: hero
+    hero:
+      name: Ponder-Tutorials
+      tagline: 一个简约的教程站点
+      text: 帮助你快速上手和掌握相关技能
+      actions:
+        - theme: brand
+          text: 快速开始
+          link: /get-started.html
+        - theme: alt
+          text: 在 GitHub 上查看
+          link: https://github.com/
 
-  - text: Introduction
-    link: https://vuejs.press/guide/introduction.html
-    type: secondary
+  - type: features
+    features:
+      - title: 简洁至上
+        icon: 📝
+        details: 以 Markdown 为中心的项目结构,以最少的配置帮助你专注于写作。
+        link: /get-started.html
+      - title: 功能丰富
+        icon: 🚀
+        details: 提供丰富的主题功能,满足你的各种需求。
+      - title: 高性能
+        icon: ⚡
+        details: VuePress 为每个页面预渲染生成静态 HTML,同时在页面被加载的时候,将作为 SPA 运行。
 
-features:
-  - title: Simplicity First
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
-  - title: Vue-Powered
-    details: Enjoy the dev experience of Vue, use Vue components in markdown, and develop custom themes with Vue.
-  - title: Performant
-    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-  - title: Themes
-    details: Providing a default theme out of the box. You can also choose a community theme or create your own one.
-  - title: Plugins
-    details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site.
-  - title: Bundlers
-    details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
-
-footer: MIT Licensed | Copyright © 2018-present VuePress Community
+footer: AGPLv3 Licensed | Copyright © 2024-present Ponder-Tutorials
 ---
-
-This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
-
-[default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page
