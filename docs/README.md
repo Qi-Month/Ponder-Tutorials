@@ -3,29 +3,43 @@ home: true
 config:
     -   type: hero
         hero:
-            name: Ponder-Tutorials
-            tagline: 一个简约的教程站点
-            text: 帮助你快速上手和掌握相关技能
+            name: 欢迎来到——奇思妙想!
+            tagline: 思索是对的
+            text: 我说思索是对的你是二多龙吗😡
             actions:
                 -   theme: brand
-                    text: 快速开始
-                    link: /get-started.html
+                    text: 介绍
+                    link: /introduction.html
                 -   theme: alt
                     text: 在 GitHub 上查看
                     link: https://github.com/Qi-Month/Ponder-Tutorials
 
     -   type: features
         features:
-            -   title: 简洁至上
-                icon: 📝
-                details: 以 Markdown 为中心的项目结构,以最少的配置帮助你专注于写作。
-                link: /get-started.html
-            -   title: 功能丰富
+            -   title: 快速开始
+                icon: 📘
+                details: 从环境搭建到第一个 Ponder 场景, 逐步讲解 Ponder 的基础使用方式.
+                link: /introduction.html
+
+            -   title: 面向实战
+                icon: ⚙️
+                details: 不仅讲解 API 的使用, 还会结合真实 Mod 开发场景进行演示与实践.
+
+            -   title: Ponder 真的超简单
+                icon: ✍️
+                details: 孩子们你们听说过什么叫一边发呆一边写吗?
+
+            -   title: 动画与交互
+                icon: 🎬
+                details: 学习如何控制场景动画, 文本提示, 方块操作与交互演示.
+
+            -   title: 易于扩展
                 icon: 🚀
-                details: 提供丰富的主题功能,满足你的各种需求。
-            -   title: 高性能
-                icon: ⚡
-                details: VuePress 为每个页面预渲染生成静态 HTML,同时在页面被加载的时候,将作为 SPA 运行。
+                details: 帮助你为自己的 Mod 构建完整且可维护的 Ponder 教程体系.
+
+            -   title: 边写边补
+                icon: 🔄
+                details: 遇到新的问题, 技巧或者坑点时,  都会陆续更新进文档里.
 
 footer: AGPLv3 Licensed | Copyright © 2024-present Ponder-Tutorials
 ---

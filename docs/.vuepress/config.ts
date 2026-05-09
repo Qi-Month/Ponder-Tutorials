@@ -35,14 +35,26 @@ export default defineUserConfig({
 		locales: {
 			"/": {
 				navbar: [
-					{ text: "首页", link: "/" },
-					{ text: "快速开始", link: "/get-started.html" }
+					{
+						text: "首页",
+						link: "/"
+					},
+					{
+						text: "介绍",
+						link: "/introduction.html"
+					}
 				]
 			},
 			"/en/": {
 				navbar: [
-					{ text: "Home", link: "/en/" },
-					{ text: "Get Started", link: "/en/get-started.html" }
+					{
+						text: "Home",
+						link: "/en/"
+					},
+					{
+						text: "Get Started",
+						link: "/en/get-started.html"
+					}
 				]
 			}
 		},
