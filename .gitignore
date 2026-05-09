@@ -1,4 +1,4 @@
 /.vscode
 /.idea
-/docs/.vuepress
+/docs/.vuepress/.temp
 node_modules
