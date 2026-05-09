@@ -25,11 +25,10 @@ export default defineUserConfig({
 			{
 				rel: "icon",
 				type: "image/png",
-				href: "/assets/textures/icon.png"
+				href: "./assets/textures/favicon.svg"
 			}
 		]
 	],
-
 	bundler: viteBundler(),
 	theme: plumeTheme({
 		locales: {
