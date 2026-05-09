@@ -9,7 +9,7 @@ A tutorial for Ponder in Minecraft Forge 1.20.1.
 在启动项目前，请确保已经安装以下环境：
 
 - Node.js 18 或更高版本
-- npm（通常会随 Node.js 一起安装）
+- npm(通常会随 Node.js 一起安装)
 
 推荐使用：
 
@@ -28,7 +28,7 @@ npm -v
 
 首次克隆项目后，需要先安装依赖。
 
-在项目根目录打开终端（CMD / PowerShell）：
+在项目根目录打开终端(CMD / PowerShell)：
 
 ```bash
 npm install
