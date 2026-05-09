@@ -31,3 +31,7 @@ footer: MIT Licensed | Copyright © 2018-present VuePress Community
 This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
 
 [default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page
+---
+如何启动编辑
+在文件夹目录cmd中输入 npm run docs:dev
+之后就可以在 http://localhost:8080/ 浏览docs

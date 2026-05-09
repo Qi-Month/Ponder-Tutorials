@@ -1,6 +1,6 @@
-import { CodeTabs } from "D:/github_repos/Ponder-Tutorials/vuepress-starter/node_modules/@vuepress/plugin-markdown-tab/lib/client/components/CodeTabs.js";
-import { Tabs } from "D:/github_repos/Ponder-Tutorials/vuepress-starter/node_modules/@vuepress/plugin-markdown-tab/lib/client/components/Tabs.js";
-import "D:/github_repos/Ponder-Tutorials/vuepress-starter/node_modules/@vuepress/plugin-markdown-tab/lib/client/styles/vars.css";
+import { CodeTabs } from "D:/github_repos/Ponder-Tutorials/node_modules/@vuepress/plugin-markdown-tab/lib/client/components/CodeTabs.js";
+import { Tabs } from "D:/github_repos/Ponder-Tutorials/node_modules/@vuepress/plugin-markdown-tab/lib/client/components/Tabs.js";
+import "D:/github_repos/Ponder-Tutorials/node_modules/@vuepress/plugin-markdown-tab/lib/client/styles/vars.css";
 
 export default {
   enhance: ({ app }) => {
