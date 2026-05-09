@@ -1,4 +1,4 @@
-import comp from "D:/.minecraft/project/docs/Ponder-Tutorials/docs/.vuepress/.temp/pages/404.html.vue"
+import comp from "D:/github_repos/Ponder-Tutorials/vuepress-starter/docs/.vuepress/.temp/pages/404.html.vue"
 const data = JSON.parse("{\"path\":\"/404.html\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{\"layout\":\"NotFound\"},\"headers\":[],\"git\":{},\"filePathRelative\":null}")
 export { comp, data }
 

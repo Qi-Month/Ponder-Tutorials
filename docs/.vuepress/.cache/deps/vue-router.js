@@ -16,9 +16,9 @@ import {
   unref,
   watch,
   watchEffect
-} from "./chunk-WLKWYZLR.js";
+} from "./chunk-O6EOGSKJ.js";
 
-// node_modules/.pnpm/@vue+devtools-api@6.6.4/node_modules/@vue/devtools-api/lib/esm/env.js
+// node_modules/vue-router/node_modules/@vue/devtools-api/lib/esm/env.js
 function getDevtoolsGlobalHook() {
   return getTarget().__VUE_DEVTOOLS_GLOBAL_HOOK__;
 }
@@ -27,11 +27,11 @@ function getTarget() {
 }
 var isProxyAvailable = typeof Proxy === "function";
 
-// node_modules/.pnpm/@vue+devtools-api@6.6.4/node_modules/@vue/devtools-api/lib/esm/const.js
+// node_modules/vue-router/node_modules/@vue/devtools-api/lib/esm/const.js
 var HOOK_SETUP = "devtools-plugin:setup";
 var HOOK_PLUGIN_SETTINGS_SET = "plugin:settings:set";
 
-// node_modules/.pnpm/@vue+devtools-api@6.6.4/node_modules/@vue/devtools-api/lib/esm/time.js
+// node_modules/vue-router/node_modules/@vue/devtools-api/lib/esm/time.js
 var supported;
 var perf;
 function isPerformanceSupported() {
@@ -54,7 +54,7 @@ function now() {
   return isPerformanceSupported() ? perf.now() : Date.now();
 }
 
-// node_modules/.pnpm/@vue+devtools-api@6.6.4/node_modules/@vue/devtools-api/lib/esm/proxy.js
+// node_modules/vue-router/node_modules/@vue/devtools-api/lib/esm/proxy.js
 var ApiProxy = class {
   constructor(plugin, hook) {
     this.target = null;
@@ -154,7 +154,7 @@ var ApiProxy = class {
   }
 };
 
-// node_modules/.pnpm/@vue+devtools-api@6.6.4/node_modules/@vue/devtools-api/lib/esm/index.js
+// node_modules/vue-router/node_modules/@vue/devtools-api/lib/esm/index.js
 function setupDevtoolsPlugin(pluginDescriptor, setupFn) {
   const descriptor = pluginDescriptor;
   const target = getTarget();
@@ -176,7 +176,7 @@ function setupDevtoolsPlugin(pluginDescriptor, setupFn) {
   }
 }
 
-// node_modules/.pnpm/vue-router@4.6.4_vue@3.5.34/node_modules/vue-router/dist/devtools-EWN81iOl.mjs
+// node_modules/vue-router/dist/devtools-EWN81iOl.mjs
 var isBrowser = typeof document !== "undefined";
 function isRouteComponent(component) {
   return typeof component === "object" || "displayName" in component || "props" in component || "__vccOpts" in component;
@@ -1026,7 +1026,7 @@ function omit(obj, keys) {
   return ret;
 }
 
-// node_modules/.pnpm/vue-router@4.6.4_vue@3.5.34/node_modules/vue-router/dist/vue-router.mjs
+// node_modules/vue-router/dist/vue-router.mjs
 var createBaseLocation = () => location.protocol + "//" + location.host;
 function createCurrentLocation(base, location$1) {
   const { pathname, search, hash } = location$1;
@@ -2358,7 +2358,7 @@ function useRoute(_name) {
   return inject(routeLocationKey);
 }
 
-// node_modules/.pnpm/vue-router@4.6.4_vue@3.5.34/node_modules/vue-router/dist/vue-router.esm-bundler.js
+// node_modules/vue-router/dist/vue-router.esm-bundler.js
 console.warn("[vue-router]: importing from 'vue-router/dist/vue-router.esm-bundler.js' is deprecated. Use 'vue-router' directly.");
 export {
   NavigationFailureType,
