@@ -13,11 +13,17 @@ export default defineUserConfig({
 			{
 				rel: "icon",
 				type: "image/png",
-				href: "./assets/textures/icon.png"
+				href: "/Ponder-Tutorials/assets/textures/icon.png"
 			}
 		]
 	],
-
 	bundler: viteBundler(),
-	theme: plumeTheme({}),
+	theme: plumeTheme({
+		navbar: [
+			{
+				text: "首页",
+				link: "/"
+			}
+		]
+	})
 })
