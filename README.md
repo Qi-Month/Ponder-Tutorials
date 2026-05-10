@@ -1,4 +1,4 @@
-# Ponder Tutorial
+	# Ponder Tutorial
 
 A tutorial for Ponder in Minecraft Forge 1.20.1.
 

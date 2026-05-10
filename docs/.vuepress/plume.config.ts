@@ -4,8 +4,14 @@ export default defineThemeConfig({
 	logo: "/assets/textures/icon.png",
 	appearance: true,
 	navbar: [
-		{ text: "首页", link: "/" },
-		{ text: "快速开始", link: "/get-started.html" }
+		{
+			text: "首页",
+			link: "/"
+		},
+		{
+			text: "快速开始",
+			link: "/introduction.html"
+		}
 	],
 	navbarSocialInclude: [],
 	aside: true,

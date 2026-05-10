@@ -8,7 +8,7 @@ config:
             name: 欢迎来到—奇思妙想!
             text: 思索是对的
             tagline: 我说思索是对的你是二多龙吗😡
-            image: /assets/textures/favicon.svg
+            image: /assets/textures/logo.png
             actions:
                 -   theme: brand
                     text: 介绍
@@ -23,6 +23,7 @@ config:
             -   title: 快速开始
                 icon: 📘
                 details: 从环境搭建到第一个 Ponder 场景, 逐步讲解 Ponder 的基础使用方式.
+                link: /introduction.html
 
             -   title: 面向实战
                 icon: ⚙️
