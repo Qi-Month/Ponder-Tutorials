@@ -35,10 +35,6 @@
 - 基础的 Minecraft (Neo)Forge Mod 的开发经验
 - 对 `Block`, `BlockState`, `Item`, `ItemStack`, `BlockEntity`, `NBT(Component)` 等内容有一定的了解
 
-[Ponder-Git]:https://github.com/Creators-of-Create/Ponder
-
-[Create-CF]: https://www.curseforge.com/minecraft/mc-mods/create
-
 ---
 
 ### 教程中使用的环境是什么
@@ -49,3 +45,7 @@
 - Ponder-1.0.91
 - Flywheel-1.0.5
 - IntelliJ IDEA
+
+[Ponder-Git]:https://github.com/Creators-of-Create/Ponder
+
+[Create-CF]: https://www.curseforge.com/minecraft/mc-mods/create
