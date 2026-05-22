@@ -31,9 +31,10 @@
 
 ### 在学习 [Ponder][Ponder-Git]前需要准备什么条件
 
-- 一些非常非常基础的 Java 开发能力
+- 一些非常非常基础的Java开发能力
 - 基础的Minecraft (Neo)Forge Mod的开发经验
 - 对`Block`, `BlockState`, `Item`, `ItemStack`, `BlockEntity`, `NBT(Component)`等内容有一定的了解
+- 一个可以梯子, 用于下载`ForgeGradle`等依赖文件
 
 ---
 
