@@ -23,7 +23,7 @@ config:
             -   title: 快速开始
                 icon: 📘
                 details: 从环境搭建到第一个 Ponder 场景, 逐步讲解 Ponder 的基础使用方式.
-                link: /introduction.html
+                link: /main_text/introduction.html
 
             -   title: 面向实战
                 icon: ⚙️
