@@ -3,6 +3,7 @@
 在上一篇教程中, 我们已经完成了`Ponder`的环境搭建以及依赖配置
 
 从这一篇开始, 我们将正式接触第一个`Ponder Scene`, 并学习`Ponder`的基础结构以及场景注册方式
+
 ---
 
 ## 搭建第一个场景结构
@@ -75,6 +76,7 @@ public class ModPonderPlugin implements PonderPlugin {
 然后我们得在Mod主类的构造函数里注册Ponder, 在里面写上
 
 ```java
+
 @Mod(ModMain.MODID)
 public class ModMain {
 	public static final String MODID = "my_modid";
