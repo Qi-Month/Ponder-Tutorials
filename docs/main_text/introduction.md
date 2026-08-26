@@ -2,7 +2,7 @@
 
 首先非常欢迎你选择了`Ponder`, 接下来让我们回答一些常见的问题
 
-### **[Ponder][Ponder-Git]是什么?
+### **[Ponder][Ponder-Git]**是什么?
 
 - [Ponder][Ponder-Git]是由[Create][Create-CF]团队研发的一个用于制作交互式游戏内指南的库, 旨在帮助玩家理解模组新增的内容.
 - 借助 [Ponder][Ponder-Git], 模组作者可以精心设计细致入微且引人入胜的教程, 以直观的方式展示模组机制, 让玩家更轻松地掌握模组的使用方法.
